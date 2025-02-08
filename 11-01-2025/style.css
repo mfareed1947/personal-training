@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+* {
+  font-family: "Oswald", serif;
+  /* font-size: 2rem; */
+  /* font-weight: 300; */
+  /* font-style: normal; */
+  /* text-transform: uppercase; */
+  /* text-decoration: underline; */
+}
+
+body {
+  background-color: black;
+}
+/* 1rem = 16px */
+
+/* hash use of Id  */
+/* #para{
+
+} */
+
+/* dot use for class */
+.para {
+  /* line-height: 115px; */
+  /* font-size: 100px; */
+  /* width: 400px; */
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  /* text-align: center; */
+  /* text-shadow: 10px 10px 10px rgb(227, 121, 121); */
+}
+
+/* .para::first-letter {
+  font-size: 200px;
+  color: red;
+} */
+
+/* .para ::first-line {
+  color: green !important;
+} */
+
+/* .new-para::first-letter{
+  font-size: 50px;
+} */
+
+/* .new-para {
+  font-size: 20px;
+} */
+
+p::first-line {
+  /* font-weight: bold; */
+  color: green;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: darkorange;
+}
+/* a:visited {
+  color: darkorange;
+} */
+
+/* button:active {
+  background-color: greenyellow;
+} */
+
+/* .input-box:focus {
+background-color: red;
+} */
+/* .input-box:target {
+  background-color: red;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+p:hover {
+  color: blue;
+  font-size: 30px;
+  text-transform: uppercase;
+} */
+
+.container {
+  background-color: white;
+  height: 100px;
+  /* max-width: 800px; */
+  width: 600px;
+  min-width: 450px;
+}
+.container-1 {
+  background-color: white;
+  height: 100px;
+  width: 200px;
+}
+.container-2 {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 20px 10px;
+}
